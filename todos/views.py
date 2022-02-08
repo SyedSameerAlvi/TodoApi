@@ -6,7 +6,7 @@ from rest_framework.generics import CreateAPIView, ListAPIView,  ListCreateAPIVi
 from rest_framework.permissions import IsAuthenticated
 from django_filters.rest_framework import DjangoFilterBackend
 from todos.pagination import CustomPageNumberPagination
-
+# new feature
 
 class TodosAPIView(ListCreateAPIView):
     serializer_class = TodoSerializer
